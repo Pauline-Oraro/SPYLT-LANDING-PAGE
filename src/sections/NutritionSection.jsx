@@ -82,7 +82,7 @@ const NutritionSection = () => {
 
                 <div className='general-title relative flex flex-col justify-center items-center gap-24'>
                     <div className='overflow-hidden place-self-start'>
-                        <h1>It still does</h1>
+                        <h1 className='mt-2.5'>It still does</h1>
                     </div>
 
                     <div style={{}} className='nutrition-text-scroll place-self-start'>

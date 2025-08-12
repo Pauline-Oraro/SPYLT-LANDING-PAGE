@@ -87,7 +87,7 @@ const MessageSection = () => {
                 <h1 className='second-message'>your future with every gulp of Perfect Protein</h1>
             </div>
 
-            <div className='flex-center md:mt-20 mt-10'>
+            <div className='flex-center md:mt-20 mt-10 sm:mx-3.5'>
                 <div className='max-w-md px-10 flex-center overflow-hidden'>
                     <p> Rev up your rebel spirit and feed the adventure of life with
                 SPYLT, where you’re one chug away from epic nostalgia and

@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
       @apply relative z-10 w-full h-full flex flex-col 2xl:justify-center items-center translate-y-10 2xl:pt-0 md:pt-32 pt-24;
 
       .hero-title {
-        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
+        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] md:mt-1.5 text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
       }
 
       .hero-text-scroll {
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
       @apply lg:h-dvh min-h-dvh md:min-h-fit w-full mt-0 md:mt-20 xl:mt-0;
 
       .flavors {
-        @apply h-full w-full flex md:flex-row flex-col items-center 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap;
+        @apply h-full w-full flex md:flex-row flex-col items-center 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap md:mx-2.5;
 
         .drinks {
           @apply absolute left-1/2 -translate-x-1/2 bottom-0 md:h-full h-80;
@@ -173,10 +173,10 @@ body::-webkit-scrollbar {
     }
 
     .nutrition-box {
-      @apply absolute md:bottom-16 bottom-5 w-full md:px-0 ;
+      @apply absolute md:bottom-16 bottom-5 w-full md:px-0;
 
       .list-wrapper {
-        @apply bg-[#fdebd2] rounded-full border-[.5vw] border-[#e8ddca] mx-auto w-full md:py-8 py-5 md:px-0 px-5 flex justify-between items-center;
+        @apply bg-[#fdebd2] rounded-full border-[.5vw] border-[#e8ddca] mx-auto w-full md:py-8 py-5 md:px-0 px-5 flex justify-center items-center;
 
         p {
           @apply text-[#865720];
@@ -281,4 +281,24 @@ body::-webkit-scrollbar {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width: 400px){
+  .hero-title{
+    font-size: 45px;
+    margin-top: 10px;
+  }
+  .hero-subtitle h1{
+    font-size: 45px;
+  }
+  
+}
+
+@media only screen and (max-width: 1020px){
+  .flavors{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
