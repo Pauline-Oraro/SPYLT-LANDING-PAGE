@@ -33,11 +33,9 @@ const App = () => {
           <MessageSection/>
           <FlavorSection/>
           <NutritionSection/>
-
-          <div>
             <BenefitSection/>
             <TestimonialSection/>
-          </div>
+        
           
           <FooterSection/>
         </div>
